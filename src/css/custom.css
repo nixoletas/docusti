@@ -10,15 +10,21 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 
   .hero__title {
+    color: rgb(20, 20, 20);
+  }
+
+  .hero--primary {
+    --ifm-hero-background-color: var(--ifm-color-primary);
+    --ifm-hero-text-color: #000000;
+}
+
+  .hero-color {
     color: black;
   }
 
   .hero--primary {
-    --ifm-hero-text-color: black;
-  }
-
-  .hero-color {
-    color: rgb(150, 150, 150);
+    background-color: transparent;
+    height: 100vh;
   }
 
   .button.button--secondary {
@@ -43,6 +49,11 @@
   .hero__title {
     color: white;
   }
+
+  .hero--primary {
+    --ifm-hero-background-color: var(--ifm-color-primary);
+    --ifm-hero-text-color: #ffffff;
+}
 
   .hero-color {
     color: white;
