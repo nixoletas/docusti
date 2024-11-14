@@ -9,7 +9,6 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Documentação da STI',
-  tagline: '[Ctrl + k] para pesquisar',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -73,7 +72,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Seção de Tecnologia da Informação',
+        title: 'STI',
         logo: {
           alt: 'Logo do site',
           src: 'img/docs-svgrepo-com.svg',
@@ -85,7 +84,7 @@ const config = {
             position: 'left',
             label: 'Scripts',
           },
-          {to: '/blog', label: 'Blog da STI', position: 'left'},
+          {to: '/blog', label: 'Blog', position: 'left'},
         ],
       },
       footer: {
