@@ -126,7 +126,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Índice de contooooeúdo`,
+        copyright: `Índice de contoooasdasdasdoeúdo`,
       },
       prism: {
         theme: prismThemes.github,
